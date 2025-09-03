@@ -88,16 +88,18 @@
     <!-- TODO (Forms - 3/4): Add name= and placeholder= attributes to both fields. -->
     <!-- TODO (Forms - 4/4): Make BOTH the name input and message textarea required. -->
     <!-- Optional: Add a Title input and a Category dropdown. -->
-    <form>
+    <form action="#" method="post">
+      <label for="name">your name</label>
       <!-- Name field - TODO: add label, id=, name=, placeholder=, and make required -->
       <!-- Example to achieve: <label for="name">Your Name:</label> -->
       <!-- Then: <input id="name" name="name" type="text" placeholder="Your name" required> -->
-      <input type="text">
+      <input id="name" name="name" type="text" placeholder="your name" required>
 
       <!-- Message field - TODO: add label, id=, name=, placeholder=, and make required -->
       <!-- Example to achieve: <label for="message">Your Post:</label> -->
       <!-- Then: <textarea id="message" name="message" rows="4" placeholder="Write your post..." required></textarea> -->
-      <textarea rows="4"></textarea>
+      <label for="message">your post</label>
+      <textarea id="name" name="message" rows="4" placeholder="Write your post..." required></textarea>
 
       <!-- Submit button - TODO: add type="submit" to the button below -->
       <button>Post</button>
@@ -109,8 +111,9 @@
 
     <!-- FOOTER -->
     <!-- TODO: Optionally wrap this in a semantic <footer> or a <div>. -->
+    <footer>
     <p>© 2024 Web Fundamentals</p>
-
+    </footer>
     <!-- TODO: Close your main container here if you opened one at the top. -->
      </main>
   </body>
